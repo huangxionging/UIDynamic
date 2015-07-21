@@ -61,11 +61,11 @@
     UIView *collisionView = gesture.view;
     CGPoint center = CGPointMake(collisionView.center.x + gesturePoint.x, collisionView.center.y + gesturePoint.y);
     NSLog(@"%@", NSStringFromCGPoint(gesturePoint));
-    gesture.view.center = center;
+    collisionView.center = center;
     
-    [gesture setTranslation: center  inView: collisionView.superview];
+    [gesture setTranslation: CGPointZero  inView: self.view];
 
-    [_attachmentBehavior setAnchorPoint: gesturePoint];
+  //  [_attachmentBehavior setAnchorPoint: gesturePoint];
     
     
   
