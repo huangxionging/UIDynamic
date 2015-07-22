@@ -7,4 +7,7 @@
    <FileRef
       location = "group:UIAttachmentDemo/UIAttachmentDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BallBehavior/BallBehavior.xcodeproj">
+   </FileRef>
 </Workspace>
