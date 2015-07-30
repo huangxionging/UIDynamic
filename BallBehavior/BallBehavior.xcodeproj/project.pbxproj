@@ -14,6 +14,8 @@
 		F27E4BCA1B5F7BDF008C1C14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27E4BC91B5F7BDF008C1C14 /* Images.xcassets */; };
 		F27E4BCD1B5F7BDF008C1C14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27E4BCB1B5F7BDF008C1C14 /* LaunchScreen.xib */; };
 		F27E4BD91B5F7BDF008C1C14 /* BallBehaviorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E4BD81B5F7BDF008C1C14 /* BallBehaviorTests.m */; };
+		F283B3461B65D88100C99302 /* AnimatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F283B3451B65D88100C99302 /* AnimatorViewController.m */; };
+		F29B3F5C1B607B8400F76121 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B3F5B1B607B8400F76121 /* BallView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		F27E4BD21B5F7BDF008C1C14 /* BallBehaviorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallBehaviorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27E4BD71B5F7BDF008C1C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27E4BD81B5F7BDF008C1C14 /* BallBehaviorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallBehaviorTests.m; sourceTree = "<group>"; };
+		F283B3441B65D88100C99302 /* AnimatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatorViewController.h; sourceTree = "<group>"; };
+		F283B3451B65D88100C99302 /* AnimatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatorViewController.m; sourceTree = "<group>"; };
+		F29B3F5A1B607B8400F76121 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		F29B3F5B1B607B8400F76121 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				F27E4BC11B5F7BDF008C1C14 /* AppDelegate.m */,
 				F27E4BC31B5F7BDF008C1C14 /* ViewController.h */,
 				F27E4BC41B5F7BDF008C1C14 /* ViewController.m */,
+				F283B3441B65D88100C99302 /* AnimatorViewController.h */,
+				F283B3451B65D88100C99302 /* AnimatorViewController.m */,
+				F29B3F5A1B607B8400F76121 /* BallView.h */,
+				F29B3F5B1B607B8400F76121 /* BallView.m */,
 				F27E4BC61B5F7BDF008C1C14 /* Main.storyboard */,
 				F27E4BC91B5F7BDF008C1C14 /* Images.xcassets */,
 				F27E4BCB1B5F7BDF008C1C14 /* LaunchScreen.xib */,
@@ -221,7 +231,9 @@
 			files = (
 				F27E4BC51B5F7BDF008C1C14 /* ViewController.m in Sources */,
 				F27E4BC21B5F7BDF008C1C14 /* AppDelegate.m in Sources */,
+				F283B3461B65D88100C99302 /* AnimatorViewController.m in Sources */,
 				F27E4BBF1B5F7BDF008C1C14 /* main.m in Sources */,
+				F29B3F5C1B607B8400F76121 /* BallView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				F27E4BDE1B5F7BDF008C1C14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F27E4BDF1B5F7BDF008C1C14 /* Build configuration list for PBXNativeTarget "BallBehaviorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				F27E4BE11B5F7BDF008C1C14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
